@@ -14,7 +14,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-bg.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/tSZqWrBudaPJdtJp.jpg" 
             alt="栃木県真岡市の美しい古民家" 
             className="w-full h-full object-cover"
           />
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* Visual Break - Renovation */}
-      <section className="relative h-[500px] flex items-center justify-center bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/renovation.jpg')" }}>
+      <section className="relative h-[500px] flex items-center justify-center bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/laEDxUoKSoYUYucP.jpg')" }}>
         <div className="absolute inset-0 bg-primary/70 mix-blend-multiply" />
         <div className="container relative z-10 text-center text-white px-4">
           <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6 leading-tight">
@@ -182,7 +182,7 @@ export default function Home() {
             {/* Service 1 */}
             <div className="bg-white group overflow-hidden border border-border flex flex-col md:flex-row hover:shadow-lg transition-all duration-300">
               <div className="md:w-1/2 h-64 md:h-auto overflow-hidden relative">
-                <img src="/images/consulting.jpg" alt="空き家管理・再生コンサルティング" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/PnvWHDGHKfrJbfUS.jpg" alt="空き家管理・再生コンサルティング" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300" />
               </div>
               <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
@@ -206,7 +206,7 @@ export default function Home() {
             {/* Service 2 */}
             <div className="bg-white group overflow-hidden border border-border flex flex-col md:flex-row-reverse hover:shadow-lg transition-all duration-300">
               <div className="md:w-1/2 h-64 md:h-auto overflow-hidden relative">
-                <img src="/images/hero-bg.jpg" alt="賃貸仲介・管理" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/tSZqWrBudaPJdtJp.jpg" alt="賃貸仲介・管理" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300" />
               </div>
               <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
@@ -230,7 +230,7 @@ export default function Home() {
             {/* Service 3 */}
             <div className="bg-white group overflow-hidden border border-border flex flex-col md:flex-row hover:shadow-lg transition-all duration-300">
               <div className="md:w-1/2 h-64 md:h-auto overflow-hidden relative">
-                <img src="/images/ai-tech.jpg" alt="売買仲介" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/oUraHRUHNETsNdVy.jpg" alt="売買仲介" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300" />
               </div>
               <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
@@ -263,7 +263,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-secondary"></div>
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-secondary"></div>
-                <img src="/images/consulting.jpg" alt="代表写真" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/PnvWHDGHKfrJbfUS.jpg" alt="代表写真" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl" />
               </div>
             </div>
             <div className="lg:w-1/2">
@@ -274,7 +274,7 @@ export default function Home() {
               </h2>
               <div className="space-y-6 text-white/90 leading-relaxed">
                 <p>
-                  はじめまして、杉原不動産 代表の杉原です。
+                  はじめまして、サンプル不動産 代表のサンプルです。
                   私はこれまで、飲食チェーンの取締役として店舗開発や経営に携わり、
                   また個人としても8棟の物件を所有する大家業を営んでまいりました。
                 </p>
@@ -289,7 +289,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-8 pt-8 border-t border-white/20">
-                <p className="font-serif font-bold text-xl">杉原 〇〇</p>
+                <p className="font-serif font-bold text-xl">サンプル 〇〇</p>
                 <p className="text-sm text-secondary mt-1">代表取締役 / 不動産経営管理士</p>
               </div>
             </div>

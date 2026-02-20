@@ -10,10 +10,10 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2 mb-4">
               <div className="bg-white text-primary p-1.5 rounded-sm">
-                <span className="font-serif font-bold text-xl">杉</span>
+                <span className="font-serif font-bold text-xl">サ</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-serif font-bold text-xl leading-none">杉原不動産</span>
+                <span className="font-serif font-bold text-xl leading-none">サンプル不動産</span>
                 <span className="text-xs tracking-widest uppercase text-white/70">Sugihara Real Estate</span>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-secondary shrink-0" />
-                <span className="text-white/90 text-sm">info@sugihara-re.com</span>
+                <span className="text-white/90 text-sm">info@sample-re.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-secondary shrink-0" />
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/60 text-xs">
-            &copy; {new Date().getFullYear()} Sugihara Real Estate. All rights reserved.
+            &copy; {new Date().getFullYear()} Sample Real Estate. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="#" className="text-white/60 hover:text-white text-xs">プライバシーポリシー</a>

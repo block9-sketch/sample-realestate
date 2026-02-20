@@ -40,20 +40,20 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2 group">
             <div className="bg-primary text-white p-1.5 rounded-sm">
-              <span className="font-serif font-bold text-xl">杉</span>
+              <span className="font-serif font-bold text-xl">サ</span>
             </div>
             <div className="flex flex-col">
               <span className={cn(
                 "font-serif font-bold text-lg leading-none transition-colors",
                 scrolled ? "text-primary" : "text-white"
               )}>
-                杉原不動産
+                サンプル不動産
               </span>
               <span className={cn(
                 "text-[10px] tracking-widest uppercase transition-colors",
                 scrolled ? "text-muted-foreground" : "text-white/80"
               )}>
-                Sugihara Real Estate
+                Sample Real Estate
               </span>
             </div>
           </a>

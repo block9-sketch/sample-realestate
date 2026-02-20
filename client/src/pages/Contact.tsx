@@ -31,7 +31,7 @@ export default function Contact() {
       
       {/* Page Header */}
       <div className="bg-primary pt-32 pb-16 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663305741270/tSZqWrBudaPJdtJp.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         <div className="container relative z-10 text-center">
           <h1 className="font-serif font-bold text-3xl md:text-5xl mb-4">お問い合わせ</h1>
           <p className="text-white/80 max-w-2xl mx-auto">
@@ -64,11 +64,11 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-base font-bold text-primary">お名前 <span className="text-red-500">*</span></Label>
-                <Input id="name" required placeholder="例：杉原 太郎" className="h-12 text-base" />
+                <Input id="name" required placeholder="例：サンプル 太郎" className="h-12 text-base" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="kana" className="text-base font-bold text-primary">フリガナ <span className="text-red-500">*</span></Label>
-                <Input id="kana" required placeholder="例：スギハラ タロウ" className="h-12 text-base" />
+                <Input id="kana" required placeholder="例：サンプル タロウ" className="h-12 text-base" />
               </div>
             </div>
 
