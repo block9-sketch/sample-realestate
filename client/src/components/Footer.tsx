@@ -28,28 +28,28 @@ export default function Footer() {
             <h3 className="font-serif font-bold text-lg mb-6 text-secondary">Menu</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/">
-                  <a className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">ホーム</a>
+                <Link href="/" className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  ホーム
                 </Link>
               </li>
               <li>
-                <Link href="/#strengths">
-                  <a className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">当社の強み</a>
+                <Link href="/#strengths" className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  当社の強み
                 </Link>
               </li>
               <li>
-                <Link href="/#services">
-                  <a className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">サービス案内</a>
+                <Link href="/#services" className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  サービス案内
                 </Link>
               </li>
               <li>
-                <Link href="/#about">
-                  <a className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">会社概要</a>
+                <Link href="/#about" className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  会社概要
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">お問い合わせ</a>
+                <Link href="/contact" className="text-white/80 hover:text-white hover:translate-x-1 transition-all inline-block">
+                  お問い合わせ
                 </Link>
               </li>
             </ul>

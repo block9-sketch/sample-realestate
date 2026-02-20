@@ -37,38 +37,38 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Link href="/">
-          <a className="flex items-center gap-2 group">
-            <div className="bg-primary text-white p-1.5 rounded-sm">
-              <span className="font-serif font-bold text-xl">サ</span>
-            </div>
-            <div className="flex flex-col">
-              <span className={cn(
-                "font-serif font-bold text-lg leading-none transition-colors",
-                scrolled ? "text-primary" : "text-white"
-              )}>
-                サンプル不動産
-              </span>
-              <span className={cn(
-                "text-[10px] tracking-widest uppercase transition-colors",
-                scrolled ? "text-muted-foreground" : "text-white/80"
-              )}>
-                Sample Real Estate
-              </span>
-            </div>
-          </a>
+        <Link href="/" className="flex items-center gap-2 group">
+          <div className="bg-primary text-white p-1.5 rounded-sm">
+            <span className="font-serif font-bold text-xl">サ</span>
+          </div>
+          <div className="flex flex-col">
+            <span className={cn(
+              "font-serif font-bold text-lg leading-none transition-colors",
+              scrolled ? "text-primary" : "text-white"
+            )}>
+              サンプル不動産
+            </span>
+            <span className={cn(
+              "text-[10px] tracking-widest uppercase transition-colors",
+              scrolled ? "text-muted-foreground" : "text-white/80"
+            )}>
+              Sample Real Estate
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href}>
-              <a className={cn(
+            <Link 
+              key={link.name} 
+              href={link.href}
+              className={cn(
                 "text-sm font-medium transition-colors hover:text-secondary relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-secondary after:transition-all hover:after:w-full",
                 scrolled ? "text-foreground" : "text-white"
-              )}>
-                {link.name}
-              </a>
+              )}
+            >
+              {link.name}
             </Link>
           ))}
           <Link href="/contact">
@@ -104,13 +104,13 @@ export default function Navbar() {
         <div className="md:hidden absolute top-full left-0 w-full bg-background border-b shadow-lg animate-in slide-in-from-top-5">
           <div className="container py-4 flex flex-col gap-4">
             {navLinks.map((link) => (
-              <Link key={link.name} href={link.href}>
-                <a 
-                  className="block py-2 text-foreground hover:text-primary font-medium border-b border-border/50"
-                  onClick={handleNavClick}
-                >
-                  {link.name}
-                </a>
+              <Link 
+                key={link.name} 
+                href={link.href}
+                className="block py-2 text-foreground hover:text-primary font-medium border-b border-border/50"
+                onClick={handleNavClick}
+              >
+                {link.name}
               </Link>
             ))}
             <Link href="/contact">

@@ -39,14 +39,16 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-secondary text-primary hover:bg-white hover:text-primary font-bold text-lg px-8 h-14 rounded-none transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
-                  無料査定・相談依頼
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                <Button asChild size="lg" className="bg-secondary text-primary hover:bg-white hover:text-primary font-bold text-lg px-8 h-14 rounded-none transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                  <span>
+                    無料査定・相談依頼
+                    <ArrowRight className="ml-2 w-5 h-5" />
+                  </span>
                 </Button>
               </Link>
               <Link href="#services">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white font-bold text-lg px-8 h-14 rounded-none transition-all duration-300">
-                  サービス一覧
+                <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white font-bold text-lg px-8 h-14 rounded-none transition-all duration-300">
+                  <span>サービス一覧</span>
                 </Button>
               </Link>
             </div>
@@ -157,8 +159,8 @@ export default function Home() {
             リノベーションと適切な管理で、愛される住まいへと生まれ変わります。
           </p>
           <Link href="/contact">
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-bold px-8 h-12 rounded-none">
-              空き家再生の事例を見る
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-bold px-8 h-12 rounded-none">
+              <span>空き家再生の事例を見る</span>
             </Button>
           </Link>
         </div>
@@ -195,10 +197,8 @@ export default function Home() {
                   「売る」「貸す」「維持する」の最適解を、オーナー様と共に考えます。
                   相続対策や税務面でのサポートも提携専門家と連携して行います。
                 </p>
-                <Link href="/contact">
-                  <a className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
-                    詳しく相談する <ArrowRight className="ml-2 w-4 h-4" />
-                  </a>
+                <Link href="/contact" className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
+                  詳しく相談する <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -219,10 +219,8 @@ export default function Home() {
                   高い入居率を維持するための物件メンテナンスや、トレンドを意識した設備導入も提案します。
                   AIを活用した魅力的な物件紹介で、早期成約を目指します。
                 </p>
-                <Link href="/contact">
-                  <a className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
-                    管理プランを見る <ArrowRight className="ml-2 w-4 h-4" />
-                  </a>
+                <Link href="/contact" className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
+                  管理プランを見る <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -243,10 +241,8 @@ export default function Home() {
                   地域相場を熟知した適正査定と、購入希望者への的確なアプローチで、
                   売主様・買主様双方にとって納得のいく取引を実現します。
                 </p>
-                <Link href="/contact">
-                  <a className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
-                    査定を依頼する <ArrowRight className="ml-2 w-4 h-4" />
-                  </a>
+                <Link href="/contact" className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors group-hover:translate-x-2 duration-300">
+                  査定を依頼する <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -309,8 +305,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Link href="/contact">
-              <Button size="lg" className="bg-primary text-white hover:bg-primary/90 font-bold px-10 h-16 text-lg rounded-none shadow-xl">
-                <Users className="mr-2 w-5 h-5" /> 無料相談・査定依頼
+              <Button asChild size="lg" className="bg-primary text-white hover:bg-primary/90 font-bold px-10 h-16 text-lg rounded-none shadow-xl">
+                <span>
+                  <Users className="mr-2 w-5 h-5" /> 無料相談・査定依頼
+                </span>
               </Button>
             </Link>
             <a href="tel:0285XXXXXX">
